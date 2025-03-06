@@ -111,7 +111,7 @@
             <!-- Producto 8 -->
             <div class="col">
                 <div class="card p-3 text-center">
-                    <img src="https://via.placeholder.com/100" class="product-img mx-auto" alt="Producto">
+                    <img src="https://compucentro.co/wp-content/uploads/1-9-1.jpg" class="product-img mx-auto" alt="Producto">
                     <h6 class="fw-bold mt-2">Producto 8</h6>
                     <p class="text-muted">Categoría D</p>
                     <p class="product-price">$27.99</p>
@@ -122,7 +122,7 @@
             <!-- Producto 9 -->
             <div class="col">
                 <div class="card p-3 text-center">
-                    <img src="https://via.placeholder.com/100" class="product-img mx-auto" alt="Producto">
+                    <img src="https://www.apcomputadores.com/wp-content/uploads/Teclado-Razer-HUNTSMAN-MINI-60-OPTICAL-RGB.jpg" class="product-img mx-auto" alt="Producto">
                     <h6 class="fw-bold mt-2">Producto 9</h6>
                     <p class="text-muted">Categoría A</p>
                     <p class="product-price">$14.50</p>
