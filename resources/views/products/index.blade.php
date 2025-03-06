@@ -110,7 +110,7 @@
             <!-- Producto 5 -->
             <div class="col">
                 <div class="card p-3 text-center">
-                    <img src="https://via.placeholder.com/100" class="product-img mx-auto" alt="Producto">
+                    <img src="https://panamericana.vtexassets.com/arquivos/ids/562816/consola-nintendo-switch-oled-blanca-juego-mario-kart-8-45496885144.jpg?v=638665868079530000" class="product-img mx-auto" alt="Producto">
                     <h6 class="fw-bold mt-2">Producto 5</h6>
                     <p class="text-muted">Categoría A</p>
                     <p class="product-price">$15.99</p>
@@ -121,7 +121,7 @@
             <!-- Producto 6 -->
             <div class="col">
                 <div class="card p-3 text-center">
-                    <img src="https://via.placeholder.com/100" class="product-img mx-auto" alt="Producto">
+                    <img src="https://itechcolombia.co/wp-content/uploads/2022/05/play-station-5-itechcolombia-2.jpg" class="product-img mx-auto" alt="Producto">
                     <h6 class="fw-bold mt-2">Producto 6</h6>
                     <p class="text-muted">Categoría B</p>
                     <p class="product-price">$18.00</p>
@@ -132,7 +132,7 @@
             <!-- Producto 7 -->
             <div class="col">
                 <div class="card p-3 text-center">
-                    <img src="https://via.placeholder.com/100" class="product-img mx-auto" alt="Producto">
+                    <img src="https://unaluka.com/cdn/shop/files/Apple_Vision_Pro_1000_0001_2048x.jpg?v=1705943785" class="product-img mx-auto" alt="Producto">
                     <h6 class="fw-bold mt-2">Producto 7</h6>
                     <p class="text-muted">Categoría C</p>
                     <p class="product-price">$22.49</p>
