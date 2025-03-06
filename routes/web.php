@@ -1,28 +1,12 @@
 <?php
-
+use App\Http\Controllers\ProductController;
+use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', HomeController::class);
 
-Route::get('/products', function () {
-    //Listado de productos
-    return view('products');
-});
+Route::get('/products',[ProductController::class, 'index']);
 
-Route::get('/products/create', function () {
-    //Crear producto
-    return view('create');
-});
+Route::get('/products/create',[ProductController::class, 'create']);
 
-Route::get('/products/{id}', function ($id) {
-    //Detalle de producto
-    return view('product');
-});
-
-Route::get('/products/{id}/{category}', function ($id, $category) {
-    //Detalle de categoria
-    return view('category');
-});
-
+Route::get('/products/{id}', [ProductController::class, 'detail']);
