@@ -27,7 +27,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link" href="{{ url('/products')}}">Productos</a></li>
-                    <li class="nav-item"><a class="nav-link" href="{{ url('/create')}}">Crear</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{{ url('/products/create')}}">Crear</a></li>
 
                 </ul>
             </div>
