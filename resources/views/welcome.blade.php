@@ -72,4 +72,22 @@
             </div>
         </div>
     </div>
+    <div class="container mt-5 bg-white">
+        <div class="row">
+            <!-- Left Column -->
+            <div class="col-md-6 d-flex flex-column justify-content-center">
+                <h2 class="fw-bold">Us</h2>
+                <p>Welcome to our e-commerce platform! We are dedicated to providing you with the best shopping experience,
+                    offering a wide range of products tailored to your needs. Explore our collections and enjoy seamless
+                    online shopping.</p>
+            </div>
+            <!-- Right Column -->
+            <div class="col-md-6">
+                <!-- Dotlottie Player -->
+                <dotlottie-player src="https://lottie.host/d494780e-efba-4e92-a9f9-ed5f35fab9bf/FHSVXcq52e.lottie"
+                    background="transparent" speed="1" style="width: 300px; height: 300px" loop
+                    autoplay></dotlottie-player>
+            </div>
+        </div>
+    </div>
 @endsection
