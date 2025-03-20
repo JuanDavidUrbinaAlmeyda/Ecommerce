@@ -35,9 +35,12 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="{{ url('/products')}}">Productos</a></li>
-                    <li class="nav-item"><a class="nav-link" href="{{ url('/products/create')}}">Crear</a></li>
-
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url('/products')}}" style="color: rgb(0, 0, 0); font-size: 110%;">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url('/products/create')}}" style="color: rgb(0, 0, 0); font-size: 110%;">Crear</a>
+                    </li>
                 </ul>
             </div>
         </div>
