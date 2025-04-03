@@ -28,11 +28,10 @@
 
                 <!-- Información del producto -->
                 <div class="col-md-8">
-                    <h2 class="product-name">Nombre del Producto</h2>
-                    <p class="text-muted">Categoría: Tecnología</p>
-                    <p>Este es un producto de alta calidad con todas las características que necesitas para mejorar tu
-                        día a día.</p>
-                    <p class="product-price">$199.99</p>
+                    <h2 class="product-name">{{$product->name}}</h2>
+                    <p class="text-muted">Categoría: {{$product->category_id}}</p>
+                    <p>{{$product->description}}</p>
+                    <p class="product-price">${{$product->price}}</p>
 
                     <!-- Botón añadir al carrito -->
                     <button class="btn btn-primary">Añadir al carrito</button>

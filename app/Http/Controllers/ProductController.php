@@ -8,7 +8,7 @@ class ProductController extends Controller
 {
     public function index()
     {
-        $listProducts=Products::all();
+        $listProducts=Products::paginate(12);
         return view('products.index',[
             'list'=>$listProducts
         ]);
@@ -21,6 +21,9 @@ class ProductController extends Controller
 
     public function detail($id)
     {
-        return view('products.product');
+        $product=Products::find($id);
+        return view('products.product',[
+            'product'=>$product
+        ]);
     }
 }
