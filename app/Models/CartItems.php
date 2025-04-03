@@ -9,4 +9,5 @@ class CartItems extends Model
 {
     use HasFactory;
     protected $table = 'cartitems';
+    protected $primaryKey = 'id';
 }
