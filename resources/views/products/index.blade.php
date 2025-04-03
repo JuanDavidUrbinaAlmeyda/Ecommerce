@@ -107,7 +107,7 @@
                         <h6 class="fw-bold mt-2">{{ $product->name }}</h6>
                         <p class="text-muted">Categoría: {{ $product->category_id }}</p>
                         <p class="product-price">{{ $product->price }}$</p>
-                        <button class="btn btn-primary">Ver</button>
+                        <a class="btn btn-primary" href="{{ url('/products/' . $product->id) }}">Ver</a>
                     </div>
                 </div>
             @endforeach
