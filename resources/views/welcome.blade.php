@@ -8,7 +8,7 @@
     <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active position-relative">
-                <img src="https://codeop.tech/wp-content/uploads/2023/11/florian-olivo-4hbJ-eymZ1o-unsplash-scaled.jpg"
+                <img src="https://emeritus.org/in/wp-content/uploads/sites/3/2023/02/pexels-neo-2653362-1024x683.jpg.optimal.jpg"
                     class="d-block w-100" style="height: 400px; object-fit: cover; filter: brightness(20%);">
                 <div class="carousel-caption d-flex justify-content-center align-items-center h-100">
                     <h1 class="text-white fw-bold">Welcome to Our Website</h1>
